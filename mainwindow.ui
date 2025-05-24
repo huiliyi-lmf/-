@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>621</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 26pt &quot;华文行楷&quot;;
+color: rgb(170, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string>欢迎进入投票系统</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 14pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>账号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 14pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="id">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>270</y>
+      <width>411</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>410</y>
+      <width>411</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_login">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>610</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_create">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>609</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>注册成为候选者</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_forget">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>609</y>
+      <width>241</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>忘记密码</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>410</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>显示</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_quit">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>609</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">;
+font: 12pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
